@@ -25,6 +25,7 @@ Response Body (Success) :
 {
 	"data": {
 		"id": 1, // example
+		"first_name": "example",
 		"last_name": "example",
 		"email": "example@example.com",
 		"phone_number": 0811111111111 // example
@@ -54,6 +55,7 @@ Response Body (Success) :
 {
 	"data": {
 		"id": 1, // example
+		"first_name": "example",
 		"last_name": "example",
 		"email": "example@example.com",
 		"phone_number": 0811111111111 // example
@@ -94,6 +96,7 @@ Response Body (Success) :
 {
 	"data": {
 		"id": 1, // example
+		"first_name": "example",
 		"last_name": "example",
 		"email": "example@example.com",
 		"phone_number": 0811111111111 // example
@@ -156,12 +159,14 @@ Response Body (Success) :
 	"data": [
 		{
 			"id": 1, // example
+			"first_name": "example",
 			"last_name": "example",
 			"email": "example@example.com",
 			"phone_number": 0811111111111 // example
 		}
 		{
 			"id": 2, // example
+			"first_name": "example",
 			"last_name": "example",
 			"email": "example@example.com",
 			"phone_number": 0811111111111 // example
