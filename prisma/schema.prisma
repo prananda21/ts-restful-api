@@ -47,8 +47,7 @@ model Address {
   postal_code String  @db.VarChar(10)
   contact_id  Int
 
-  contact   Contact @relation(fields: [contactId], references: [id])
-  contactId Int
+  contact   Contact @relation(fields: [contact_id], references: [id])
 
   @@map("addresses")
 }
